@@ -1,0 +1,33 @@
+.app-wrapper {
+  display: flex;
+  max-width: 901px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.app-header .app-wrapper {
+  justify-content: space-between;
+}
+
+.app-body {
+  margin-top: 30px;
+}
+
+.app-body .app-wrapper {
+  flex-direction: column;
+}
+
+.banner {
+  margin-top: 15px;
+}
+
+.banner-image {
+  height: 100px;
+
+  object-fit: cover;
+}
+
+.app-footer {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

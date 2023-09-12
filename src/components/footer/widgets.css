@@ -1,0 +1,17 @@
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widgets-column {
+  flex: calc(100% / 3 - 31.33px);
+  width: 290px;
+}
+
+.widgets-column:not(:first-child) {
+  padding-left: 15px;
+}
+
+.widget-container {
+  margin-top: 15px;
+}
